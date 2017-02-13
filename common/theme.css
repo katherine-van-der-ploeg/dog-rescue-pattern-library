@@ -17,59 +17,58 @@ html {
 h1 {
   font-family: var(--font-primary);
   font-size: 3.998em;
-  font-weight: 700;
-  }
+  font-weight: bold;
+}
 
 h2 {
   font-family: var(--font-primary);
   font-size: 2.827em;
-  font-weight: 700;
-  }
+  font-weight: bold;
+}
 
 h3 {
   font-family: var(--font-primary);
   font-size: 1.999em;
-  font-weight: 500;
-  }
+  font-weight: medium;
+}
 
 h4 {
   font-family: var(--font-primary);
   font-size: 1.414em;
-  font-weight: 500;
-  }
+  font-weight: medium;
+}
 
 h5 {
   font-family: var(--font-primary);
   font-size: 1em;
-  font-weight: 300;
-  }
+  font-weight: lighter;
+}
 
 h6 {
   font-family: var(--font-primary);
-  font-size: 0.707em;
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 ul {
   font-family: var(--font-primary);
-    color: var(--color-secondary-text);
-  }
+  color: var(--color-secondary-text);
+}
 
 ol {
   font-family: var(--font-primary);
-    color: var(--color-secondary-text);
-  }
+  color: var(--color-secondary-text);
+}
 
 dl {
   font-family: var(--font-primary);
-    color: var(--color-secondary-text);
+  color: var(--color-secondary-text);
 }
 
 blockquote {
   font-family: var(--font-primary);
   font-weight: 300;
   color: var(--color-secondary-text);
-  }
+}
 
 cite {
   font-family: var(--font-primary);
@@ -93,15 +92,15 @@ em {
 strong {
   font-family: var(--font-primary);
   font-weight: 500;
-  }
+}
 
 i {
   font-family: var(--font-primary);
   font-weight: 400;
   font-style: italic;
-  }
+}
 
-b{
+b {
   font-family: var(--font-primary);
   font-weight: 500;
-  }
+}
