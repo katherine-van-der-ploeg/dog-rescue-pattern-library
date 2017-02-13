@@ -1,6 +1,6 @@
 ---
 name: "Loyal Rescue"
-fontUrl: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+fontUrl: "https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700"
 fonts:
   primary: |
     The primary typeface is a clean, but friendly typeface designed to work well with the bright colours and light friendly atmosphere of the website.
