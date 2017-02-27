@@ -1,0 +1,17 @@
+.card {
+  box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)),
+    url("https://s-media-cache-ak0.pinimg.com/736x/63/0f/0e/630f0ef3f6f3126ca11f19f4a9b85243.jpg");
+  background-size: cover;
+  text-align: right;
+  color: #fff;
+}
+
+.basic-card {
+  background-color: #bdbdbd;
+  color: #fff;
+  -webkit-box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
+  -moz-box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
+  box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
+}
