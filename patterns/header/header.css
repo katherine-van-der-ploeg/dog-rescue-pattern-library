@@ -22,7 +22,7 @@ h1 {
   transform: translateY(2em);
 }
 
-.icon {
+.logo {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);

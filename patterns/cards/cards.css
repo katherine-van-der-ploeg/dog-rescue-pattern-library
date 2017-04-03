@@ -1,10 +1,53 @@
 .card {
   box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
   background-image:
-    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)),
+    linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)),
     url("https://s-media-cache-ak0.pinimg.com/736x/63/0f/0e/630f0ef3f6f3126ca11f19f4a9b85243.jpg");
   background-size: cover;
-  text-align: right;
+  text-align: left;
+  color: #fff;
+  position: relative;
+  padding: 5em;
+  max-height: 31em;
+  min-height: 25em;
+}
+
+.card-1 {
+  box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
+  background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)),
+    url("file:///Users/katherine/Documents/Documents/Semester%204/web-dev-4/dog-rescue-pattern-library/images/dog-photos/puppy-6.jpg");
+  background-size: cover;
+  text-align: left;
+  color: #fff;
+}
+
+.card-2 {
+  box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
+  background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)),
+    url("file:///Users/katherine/Documents/Documents/Semester%204/web-dev-4/dog-rescue-pattern-library/images/dog-photos/puppy-4.jpg");
+  background-size: cover;
+  text-align: left;
+  color: #fff;
+}
+.card-3 {
+  box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
+  background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)),
+    url("file:///Users/katherine/Documents/Documents/Semester%204/web-dev-4/dog-rescue-pattern-library/images/dog-photos/puppy-8.jpg");
+  background-size: cover;
+  text-align: left;
+  color: #fff;
+}
+
+.card-4 {
+  box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
+  background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)),
+    url("file:///Users/katherine/Documents/Documents/Semester%204/web-dev-4/dog-rescue-pattern-library/images/dog-photos/puppy-5.jpg");
+  background-size: cover;
+  text-align: left;
   color: #fff;
 }
 
@@ -14,4 +57,15 @@
   -webkit-box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
   -moz-box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
   box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
+}
+
+.profile-card-text {
+  position: absolute;
+  max-width: 25em;
+}
+
+@media only screen and (min-width: 25em) {
+  .card {
+    max-height: 28em;
+  }
 }

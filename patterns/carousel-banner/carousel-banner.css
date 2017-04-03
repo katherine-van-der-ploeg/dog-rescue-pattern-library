@@ -2,10 +2,10 @@
   display: none;
 }
 
-#arsinoitherium-control:checked ~ .carousel-inner #arsinoitherium,
-#elasmotherium-control:checked ~ .carousel-inner #elasmotherium,
-#glyptodon-control:checked ~ .carousel-inner #glyptodon,
-#megatherium-control:checked ~ .carousel-inner #megatherium {
+#dog-1-control:checked ~ .carousel-inner #dog-1,
+#dog-2-control:checked ~ .carousel-inner #dog-2,
+#dog-3-control:checked ~ .carousel-inner #dog-3,
+#dog-4-control:checked ~ .carousel-inner #dog-4 {
   display: block;
 }
 
@@ -14,9 +14,36 @@
   border-radius: 50%;
 }
 
-#arsinoitherium-control:checked ~ .carousel-inner [for="arsinoitherium-control"],
-#elasmotherium-control:checked ~ .carousel-inner [for="elasmotherium-control"],
-#glyptodon-control:checked ~ .carousel-inner [for="glyptodon-control"],
-#megatherium-control:checked ~ .carousel-inner [for="megatherium-control"] {
+#dog-1-control:checked ~ .carousel-inner [for="dog-1-control"],
+#dog-2-control:checked ~ .carousel-inner [for="dog-2-control"],
+#dog-3-control:checked ~ .carousel-inner [for="dog-3-control"],
+#dog-4-control:checked ~ .carousel-inner [for="dog-4-control"] {
   background-color: #fff;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 26em;
+}
+
+@media only screen and (min-width:25em) {
+  .carousel-controls {
+    position: absolute;
+    top: 21.5em;
+  }
+
+}
+
+@media only screen and (min-width:38em) {
+  .carousel-controls {
+    position: absolute;
+    top: 24em;
+  }
+}
+
+@media only screen and (min-width:60em) {
+  .carousel-controls {
+    position: absolute;
+    top: 24em;
+  }
 }

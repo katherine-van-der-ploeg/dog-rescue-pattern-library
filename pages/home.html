@@ -2,19 +2,51 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Banner carousel</title>
+  <title>Loyal Rescue Home Page</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="../../common/modules.css" rel="stylesheet">
-  <link href="../../common/grid.css" rel="stylesheet">
-  <link href="../../common/type.css" rel="stylesheet">
-  <link href="../../common/theme.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
-  <link href="carousel-banner.css" rel="stylesheet">
-  <link href="../cards/cards.css" rel="stylesheet">
+  <link href="../common/modules.css" rel="stylesheet">
+  <link href="../common/grid.css" rel="stylesheet">
+  <link href="../common/type.css" rel="stylesheet">
+  <link href="../common/theme.css" rel="stylesheet">
+  <link href="../patterns/buttons/buttons.css" rel="stylesheet">
+  <link href="../patterns/cards/cards.css" rel="stylesheet">
+  <link href="../patterns/footer/footer.css" rel="stylesheet">
+  <link href="../patterns/forms-and-fields/forms-and-fields.css" rel="stylesheet">
+  <link href="../patterns/header/header.css" rel="stylesheet">
+  <link href="../patterns/secondary-nav/secondary-nav.css" rel="stylesheet">
+  <link href="../patterns/carousel-banner/carousel-banner.css" rel="stylesheet">
 </head>
 <body>
 
-  <section class="">
+    <header class="main-nav">
+
+    <div class="header-title">
+      <i class="logo icon i-64">
+        <img class="img-flex" src="../images/logo-64.svg" alt="">
+      </i>
+      <h1 class="text-center yotta">Loyal Rescue</h1>
+    </div>
+
+    <nav class="island-1-4 grid">
+
+      <div class="left unit xs-1 s-1 m-1-2 l-1-2">
+        <a href="#" class="island-half nav-link">About Us</a>
+        <a href="#" class="island-half nav-link">Happy Tails</a>
+        <a href="#" class="island-half nav-link">Adopt!</a>
+      </div>
+
+      <div class="right unit xs-1 s-1 m-1-2 l-1-2">
+        <a href="#" class="island-half nav-link">Gallery</a>
+        <a href="#" class="island-half nav-link">FAQ's</a>
+        <a href="#" class="island-half nav-link">Contact Us</a>
+        <a href="#" class="island-half nav-link">Sign In</a>
+      </div>
+
+    </nav>
+
+  </header>
+
+  <section class="carousel-banner">
 
     <div class="carousel relative">
       <input class="carousel-input" type="radio" name="dogs" id="dog-1-control" checked>
@@ -30,7 +62,7 @@
                 <h2 class="push-1-2">Buttercup</h2>
                 <h4 class="push-1-4">Labrador Retriever/Mixed</h4>
                 <p class="push-1-4">Hi, my name is Buttercup but you can call me adorable, since everyone else does. I am a happy easy going little girl that LOVES everyone.  I am learning...</p>
-                <a class="button" href="#">View Profile</a>
+                <a class="btn btn-ghost" href="#">View Profile</a>
               </div>
             </div>
           </div>
@@ -41,7 +73,7 @@
                 <h2 class="push-1-2">Lady</h2>
                 <h4 class="push-1-4">Chihuahua (long coat)</h4>
                 <p class="push-1-4">Hi, our names are Lady and Bailey. We are a bonded pair and must be kept together. We always watch out for each other and we are never far apart. We both LOVE to snuggle and...</p>
-                <a class="button" href="#">View Profile</a>
+                <a class="btn btn-ghost" href="#">View Profile</a>
               </div>
             </div>
           </div>
@@ -52,7 +84,7 @@
                 <h2 class="push-1-2">Norm</h2>
                 <h4 class="push-1-4">Yorkshire Terrier (medium coat)</h4>
                 <p class="push-1-4">Hi!  I'm Norm.  I enjoy walks by the beach, romantic dinners with my life partner(s) and snuggling on the couch watching a good movie.  The old reruns are...</p>
-                <a class="button" href="#">View Profile</a>
+                <a class="btn btn-ghost" href="#">View Profile</a>
               </div>
             </div>
           </div>
@@ -63,7 +95,7 @@
                 <h2 class="push-1-2">Shuggie</h2>
                 <h4 class="push-1-4">Shih tzu</h4>
                 <p class="push-1-4">Hi, my name is Shuggie. I am so glad to have this chance to find a really nice forever home where I will be loved and taken care of for the rest of my life. I am super smart if I say so myself...</p>
-                <a class="button" href="#">View Profile</a>
+                <a class="btn btn-ghost" href="#">View Profile</a>
               </div>
             </div>
           </div>
@@ -86,6 +118,10 @@
       </div>
     </div>
 
+  </section>
+
+  <section class="body-text">
+    <h2 class="pad-t-2 push-2">About</h2>
   </section>
 
 </body>
