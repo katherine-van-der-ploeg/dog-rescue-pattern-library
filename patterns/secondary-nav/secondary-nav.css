@@ -1,0 +1,29 @@
+.secondary-nav-btn {
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.secondary-nav-btn:hover {
+  background-color: var(--color-accent);
+}
+
+.secondary-nav {
+  background-color: var(--color-primary-light);
+}
+
+.search-label {
+  color: #fff;
+  padding: .5em;
+}
+
+input {
+  border: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .search-label {
+    text-align: right;
+  }
+}

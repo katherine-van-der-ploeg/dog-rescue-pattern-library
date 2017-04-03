@@ -1,0 +1,53 @@
+ul {
+  display: inline-block;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+nav {
+  text-align: center;
+  padding: 2em;
+}
+
+h1 {
+  color: #bdbdbd;
+  display: block;
+  transform: translateY(2em);
+}
+
+.icon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-title {
+  float: none;
+  padding: 2em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    transform: translateY(1.2em);
+  }
+
+  header {
+    position: relative;
+  }
+
+  nav {
+    position: absolute;
+    left: 0;
+    top: 1em;
+    width: 100%;
+  }
+
+}

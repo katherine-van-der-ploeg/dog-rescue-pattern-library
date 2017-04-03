@@ -1,0 +1,74 @@
+html {
+  font-family: sans-serif;
+}
+
+.flag-optional {
+  color: #999;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #c33;
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
+.form-style {
+  background-color: var(--color-primary-light);
+  padding: 1em;
+}
+
+label {
+  color: #fff;
+}
+
+.flag-optional {
+  color: #fff;
+}
+
+input {
+  border: none;
+}
+
+select {
+  border: none;
+}
+
+textarea{
+  border: none;
+}
+
+.btn {
+  background-color: var(--color-accent);
+  border: none;
+  border-radius: 0px;
+  color: var(--color-primary);
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: var(--color-accent);
+}
+
+.button {
+  background-color: #fff;
+}
+
+option {
+  color: var(--color-secondary-text);
+}
