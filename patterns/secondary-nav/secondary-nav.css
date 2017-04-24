@@ -21,9 +21,18 @@ input {
   border: none;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .secondary-nav-btn {
+    padding-top: 8em;
+  }
+}
+
 @media only screen and (min-width: 60em) {
 
   .search-label {
     text-align: right;
   }
+
+
 }
