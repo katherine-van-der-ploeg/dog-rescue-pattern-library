@@ -26,7 +26,7 @@
       <h1 class="text-center yotta">Loyal Rescue</h1>
     </div>
 
-    <nav class="island-1-4 grid">
+    <nav class="header-nav island-1-4 grid">
 
       <div class="left unit xs-1 s-1 m-1-2 l-1-2">
         <a href="#" class="island-half nav-link">About Us</a>
@@ -46,12 +46,19 @@
   </header>
 
   <section class="main-body push-0">
-    <h1 class="island-2">Application</h1>
+    <h2 class="island">Application</h2>
 
     <div class="grid">
 
       <form class="max-length island unit xs-1 s-1 m-1-2 l-1-2" method="post" novalidate>
-        <h2>About You</h2>
+        <h3>About You</h3>
+
+        <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+          <h3 class="push-0">
+            <i class="icon i-32"><svg><use xlink:href="../images/icons.svg#attention"/></svg></i>
+            <span class="icon-label">There are items that require your attention</span>
+          </h3>
+        </div>
 
         <div class="push-1-2 form-style">
           <label for="dog-name">Name of the dog you would like to adopt:</label>
@@ -182,11 +189,21 @@
             <span class="icon-label">Information missing</span>
           </p>
         </div>
+        <div class="button pad-t-1-2 form-style">
+          <button class="btn" type="submit">Send</button>
+        </div>
 
       </form>
 
       <form class="max-length island unit xs-1 s-1 m-1-2 l-1-2" method="post" novalidate>
-        <h2>Your Lifestyle</h2>
+        <h3>Your Lifestyle</h3>
+
+        <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+          <h3 class="push-0">
+            <i class="icon i-32"><svg><use xlink:href="../images/icons.svg#attention"/></svg></i>
+            <span class="icon-label">There are items that require your attention</span>
+          </h3>
+        </div>
 
         <div class="push-1-2 form-style">
           <label>Home Style:</label>
@@ -289,11 +306,21 @@
             <span class="icon-label">Information missing</span>
           </p>
         </div>
+        <div class="button pad-t-1-2 form-style">
+          <button class="btn" type="submit">Send</button>
+        </div>
       </form>
 
       <form class="max-length island unit xs-1 s-1 m-1-2 l-1-2" method="post" novalidate>
-        <h2>Pet Information</h2>
+        <h3>Pet Information</h3>
         <h4>Which of the following best describes the dog that you are looking for?</h4>
+
+        <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+          <h3 class="push-0">
+            <i class="icon i-32"><svg><use xlink:href="../images/icons.svg#attention"/></svg></i>
+            <span class="icon-label">There are items that require your attention</span>
+          </h3>
+        </div>
 
         <div class="push-1-2 form-style">
           <label>Age</label>
@@ -469,5 +496,6 @@
   <footer class="island-2">
     <small class="micro island-2">Copyright of Loyal Rescue, 2017.</small>
   </footer>
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>
 </html>
