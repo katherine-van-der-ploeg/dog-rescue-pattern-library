@@ -22,7 +22,7 @@
   color: var(--color-primary-light);
 }
 
-.btn:hover{
+.btn:hover {
   color: #fff;
   background-color: var(--color-accent);
   border-color: var(--color-accent);

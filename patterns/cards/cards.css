@@ -36,6 +36,7 @@
   color: #fff;
   display: inline-block;
 }
+
 .card-3 {
   box-shadow: -10px 10px 27px -9px rgba(0, 0, 0, .6);
   background-image:
@@ -182,6 +183,7 @@
 }
 
 @media only screen and (min-width: 25em) {
+
   .card {
     max-height: 28em;
   }

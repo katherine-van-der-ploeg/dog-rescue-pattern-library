@@ -26,7 +26,8 @@
   top: 26em;
 }
 
-@media only screen and (min-width:25em) {
+@media only screen and (min-width: 25em) {
+
   .carousel-controls {
     position: absolute;
     top: 21.5em;
@@ -34,14 +35,16 @@
 
 }
 
-@media only screen and (min-width:38em) {
+@media only screen and (min-width: 38em) {
+
   .carousel-controls {
     position: absolute;
     top: 24em;
   }
 }
 
-@media only screen and (min-width:60em) {
+@media only screen and (min-width: 60em) {
+
   .carousel-controls {
     position: absolute;
     top: 24em;

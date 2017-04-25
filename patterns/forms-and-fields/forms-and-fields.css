@@ -37,10 +37,6 @@ label {
   color: #fff;
 }
 
-.flag-optional {
-  color: #fff;
-}
-
 input {
   border: none;
 }
@@ -49,14 +45,14 @@ select {
   border: none;
 }
 
-textarea{
+textarea {
   border: none;
 }
 
 .btn {
   background-color: var(--color-accent);
   border: none;
-  border-radius: 0px;
+  border-radius: 0;
   color: var(--color-primary);
 }
 
